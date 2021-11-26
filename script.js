@@ -1,9 +1,10 @@
 function myFunction() {
-    let nama = alert('Siapa nama?');
+    let nama = prompt('Siapa nama?');
     document.getElementById('tajuk').innerText = 'Selamat Datang ' + nama;
 }
+
 function simpan() {
-    let sahkan = confirm('Adakah anda pasti?');
+    let sahkan =confirm('Adakah anda pasti?');
     if (sahkan) {
         return true;
     } else {
@@ -11,9 +12,11 @@ function simpan() {
         return false;
     }
 }
+
 function fokus() {
     document.getElementById('mesej').innerText = 'Sila klik butang Simpan';
 }
-function putih() {
+
+function  putih() {
     document.getElementById('mesej').innerText = 'Sila nyatakan keperluan anda';
 }
