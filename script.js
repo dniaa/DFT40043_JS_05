@@ -1,8 +1,3 @@
-function myFunction() {
-    let nama = prompt('Siapa nama?');
-    document.getElementById('tajuk').innerText = 'Selamat Datang ' + nama;
-}
-
 function simpan() {
     let sahkan =confirm('Adakah anda pasti?');
     if (sahkan) {
